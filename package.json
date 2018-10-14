@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Web-Site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugene Shapira",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootstrap4-fullscreen-modal": "^1.0.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}
