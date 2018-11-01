@@ -12,9 +12,11 @@ $(document).ready(function() {
   var typed = new Typed(".typed", {
     strings: [
       "Lets build something great together",
-      "PSD TO HTML",
+      "Web Developer",
+      "Website Developer",
       "Wordpress Developer",
-      "Website Developer"
+      "PSD TO HTML",
+      "Landing Pages"
     ],
     typeSpeed: 40,
     loop: true,
