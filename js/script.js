@@ -1,6 +1,32 @@
 $(document).ready(function() {
   $(window).on("load", function() {
-    $(".loader ").fadeOut(7000);
+    $(".loader ").fadeOut(5000);
+    $(".items").isotope({
+      filter: "*",
+      animationOptions: {
+        duration: 1500,
+        easing: "Linear",
+        queue: false
+      }
+    });
+
+    $("#filters a").click(function() {
+      $("#filters .current").removeClass("current");
+      $(this).addClass("current");
+
+      var selector = $(this).attr("data-filter");
+
+      $(".items").isotope({
+        filter: selector,
+        animationOptions: {
+          duration: 1500,
+          easing: "Linear",
+          queue: false
+        }
+      });
+
+      return false;
+    });
   });
 
   $("#slides").superslides({
@@ -89,33 +115,6 @@ $(document).ready(function() {
   });
 
   $("[data-fancybox]").fancybox();
-
-  $(".items").isotope({
-    filter: "*",
-    animationOptions: {
-      duration: 1500,
-      easing: "Linear",
-      queue: false
-    }
-  });
-
-  $("#filters a").click(function() {
-    $("#filters .current").removeClass("current");
-    $(this).addClass("current");
-
-    var selector = $(this).attr("data-filter");
-
-    $(".items").isotope({
-      filter: selector,
-      animationOptions: {
-        duration: 1500,
-        easing: "Linear",
-        queue: false
-      }
-    });
-
-    return false;
-  });
 
   $("#navigation li a").click(function(e) {
     e.preventDefault();

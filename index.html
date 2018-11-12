@@ -1,856 +1,1230 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Eugene - Web Solutions,Portfolio Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Personal Portfolio,Web-Developer,Web-Site building">
-    <meta name="description" content="My portfolio web site,I create web solutions for my clients">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="Personal Portfolio,Web-Developer,Web-Site building"
+    />
+    <meta
+      name="description"
+      content="My portfolio web site,I create web solutions for my clients"
+    />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="Img/FavIcon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Img/FavIcon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Img/FavIcon/favicon-16x16.png">
-    <link rel="manifest" href="Img/FavIcon/site.webmanifest">
-    <link rel="mask-icon" href="Img/FavIcon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Img/FavIcon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Img/FavIcon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Img/FavIcon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Img/FavIcon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="Img/FavIcon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" type="text/css" href="css/superslides.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- WhatsHelp.io widget -->
     <script type="text/javascript">
-        (function () {
-            var options = {
-                whatsapp: "+9720528848178", // WhatsApp number
-                email: "evgeni.shapira@gmail.com", // Email
-                call_to_action: "Get In Touch", // Call to action
-                button_color: "#129BF4", // Color of button
-                position: "right", // Position may be 'right' or 'left'
-                order: "whatsapp,email", // Order of buttons
-            };
-            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-        })();
+      (function() {
+        var options = {
+          whatsapp: "+9720528848178", // WhatsApp number
+          email: "evgeni.shapira@gmail.com", // Email
+          call_to_action: "Get In Touch", // Call to action
+          button_color: "#129BF4", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp,email" // Order of buttons
+        };
+        var proto = document.location.protocol,
+          host = "whatshelp.io",
+          url = proto + "//static." + host;
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = url + "/widget-send-button/js/init.js";
+        s.onload = function() {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+      })();
     </script>
     <!-- /WhatsHelp.io widget -->
-</head>
+  </head>
 
-<body>
+  <body>
     <a href="#main">skip to main content</a>
 
-    <!-- <div class="loader">
-        <div class="inner">
-        </div>
-    </div> -->
+    
+      <div class="loader">
+
+          <div class="inner">
+
+
+          </div>
+
+
+      </div>
+
     <div id="slides">
-        <div class="overlay"></div>
-        <div class="slides-container">
-            <img src="Img/slide1.png" alt="">
-            <img src="Img/slide2.jpg" alt="">
-            <img src="Img/slide3.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <img src="Img/slide1.png" alt="" /> <img src="Img/slide2.jpg" alt="" />
+        <img src="Img/slide3.jpg" alt="" />
+      </div>
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a> <a href="#" class="prev"></a>
+      </nav>
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Eugene Shapira</p>
+          <p class="subHeading typed"></p>
         </div>
-        <nav class="slides-navigation">
-            <a href="#" class="next"></a>
-            <a href="#" class="prev"></a>
-        </nav>
-        <div class="titleMessage">
-            <div class="heading">
-                <p class="main">Eugene Shapira</p>
-                <p class="subHeading typed"></p>
-            </div>
-        </div>
+      </div>
     </div>
 
     <nav id="navigation" class="navbar navbar-expand-lg">
-        <a class="navbar-brand pl-5 brandName" href="#">EUGENE-WEB SOLUTIONS</a>
+      <a class="navbar-brand pl-5 brandName" href="#">EUGENE-WEB SOLUTIONS</a>
 
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item px-5">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item px-5">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item px-5">
-                    <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item px-5">
-                    <a class="nav-link mr-5" href="#skills">Technical Skills</a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item px-5">
+            <a class="nav-link" id="about-link" href="#about">About</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" id="portfolio-link" href="#portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" id="services-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link mr-5" id="technicalSkills-link" href="#skills"
+              >Technical Skills</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="socialContainer pt-3">
-        <header>
-            <h2 class="text-center text-white">Follow Me And My Work </h2>
-        </header>
-        <ul class="accordion pl-5">
-            <!-- <li class="tab">
+      <header>
+        <h2 class="text-center text-white">Follow Me And My Work</h2>
+      </header>
+      <ul class="accordion pl-5">
+        <!--
+          <li class="tab">
+
             <div class="social youtube">
+
+
               <a href="" target="_blank">Youtube</a>
+
+
             </div>
+
+
             <div class="content">
+
+
               <h1>YouTube</h1>
+
+
               <p>Follow me on YouTube for tutorials with the latest technology in webv development</p>
+
+
             </div>
-          </li> -->
-            <!-- <li class="tab">
+
+
+          </li>
+        -->
+        <!--
+          <li class="tab">
+
             <div class="social twitter">
+
+
               <a href="" target="_blank">Twitter</a>
+
+
             </div>
+
+
             <div class="content">
+
+
               <h1>Twitter</h1>
+
+
               <p>Follow me on Twitter for video and course updates, article & blog shares and more</p>
+
+
             </div>
-          </li> -->
-            <!-- <li class="tab">
+
+
+          </li>
+        -->
+        <!--
+          <li class="tab">
+
             <div class="social facebook">
+
+
               <a href="" target="_blank">Facebook</a>
+
+
             </div>
+
+
             <div class="content">
+
+
               <h1>Facebook</h1>
+
+
               <p>Follow me on Facebook to stay up to date with Traversy Media and get notified of new videos, publications, etc</p>
+
+
             </div>
-          </li> -->
-            <li class="tab">
-                <div class="social linkedin">
-                    <a href="http://www.linkedin.com/in/evgenyshapira" target="_blank">LinkedIn</a>
-                </div>
-                <div class="content">
-                    <h1>LinkedIn</h1>
-                    <p>Connect with me on a professional level on Linkedin</p>
-                </div>
-            </li>
-            <li class="tab">
-                <div class="social instagram">
-                    <a href="https://codepen.io/Eugene100/" target="_blank">Codepen</a>
-                </div>
-                <div class="content">
-                    <h1>Codepen</h1>
-                    <p>Follow me on codepen to see various small and interesting front-end projects</p>
-                </div>
-            </li>
-            <li class="tab">
-                <div class="social github">
-                    <a href="https://github.com/Evgi100y" target="_blank">Github</a>
-                </div>
-                <div class="content">
-                    <h1>Github</h1>
-                    <p>Check out my Github for more projects </p>
-                </div>
-            </li>
-        </ul>
+
+
+          </li>
+        -->
+        <li class="tab">
+          <div class="social linkedin">
+            <a href="http://www.linkedin.com/in/evgenyshapira" target="_blank"
+              >LinkedIn</a
+            >
+          </div>
+          <div class="content">
+            <h1>LinkedIn</h1>
+            <p>Connect with me on a professional level on Linkedin</p>
+          </div>
+        </li>
+        <li class="tab">
+          <div class="social instagram">
+            <a href="https://codepen.io/Eugene100/" target="_blank">Codepen</a>
+          </div>
+          <div class="content">
+            <h1>Codepen</h1>
+            <p>
+              Follow me on codepen to see various small and interesting
+              front-end projects
+            </p>
+          </div>
+        </li>
+        <li class="tab">
+          <div class="social github">
+            <a href="https://github.com/Evgi100" target="_blank">Github</a>
+          </div>
+          <div class="content">
+            <h1>Github</h1>
+            <p>Check out my Github for more projects</p>
+          </div>
+        </li>
+      </ul>
     </div>
 
-
     <main id="main">
-        <div id="about" class="aboutSection section">
-            <div class="container">
-                <div class="row">
-                    <div class="heading ">
-                        <div class="title">
-                            <div class="circle">
-                                <h2 class="sectionHeading--about">About Me</h2>
-                            </div>
-                        </div>
-                        <hr>
-                        <h3>My name is Eugene(Evgeny) Shapira</h3>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="aboutImg" src="Img/user.jpg" alt="Image of eugene shapira">
-                    </div>
-                    <div class="col-md-7">
-                        <p class="text-muted lead">I provide web solutions for small and medium businesses.
-                            <br> I collaborate with clients to help them transform their ideas into well thought and
-                            designed
-                            website/web app.
-                            <br>I custom develop all websites,allowing them to remain unique,scalable and provide
-                            better experience for your users.
-                            <br>
-                            <br>
-                            It's important that you will be able to manage your website yourself,from anywhere at any
-                            time. <br>
-                            I work with the popular Wordpress CMS(Content Management System ) allowing you to edit
-                            and change content on your website.
-                            <br>
-                            <br>
-                            Almost half of all the internet traffic is now from a mobile audience. <br>
-                            I build responsive websites that will look great on any screen size on
-                            any device.</p>
-                    </div>
+      <div
+        id="about"
+        data-matching-link="#about-link"
+        class="aboutSection section"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="heading ">
+              <div class="title">
+                <div class="circle">
+                  <h2 class="sectionHeading--about">About Me</h2>
                 </div>
+              </div>
+              <hr />
+              <h3 class="mb-2">My name is Eugene(Evgeny) Shapira</h3>
+              <h5 lass="text-lead">
+                I provide web solutions for small and medium businesses.
+              </h5>
             </div>
-        </div>
-
-        <div id="portfolio" class="portfolioSection section ">
-            <div class="container">
-                <div class="row">
-                    <div class="heading ">
-                        <div class="title">
-                            <div class="square">
-                                <h2 class="sectionHeading portfolioHeading">portfolio</h2>
-                            </div>
-                        </div>
-                        <hr>
-                        <h5 lass="text-lead">Some of my recent works</h5>
-
-                    </div>
-
-                    <div class="filter">
-                        <ul id="filters">
-                            <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                            <li><a href="#" data-filter=".apps">Apps</a></li>
-                            <li><a href="#" data-filter=".websites">Websites & Landing Pages</a></li>
-                            <li><a href="#" data-filter=".wordpress">Wordpress Templates</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="itemsContainer ">
-                        <ul class="items ">
-                            <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/Organicfood Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/Organicfood.png" title="View image"
-                                            data-fancybox="gallery" data-caption="One page website for premium food delivery service">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://organicfood-sample.netlify.com" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/youtours Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/youtours.png" title="View image" data-fancybox="gallery"
-                                            data-caption=" Website for a tour agency that provides exciting tours for adventurous people">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://youtours.netlify.com/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/nexter Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/nexter.png" title="View image" data-fancybox="gallery"
-                                            data-caption="One page website for a real estate agency">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://nexterhomes.netlify.com/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/Coding scholla Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/Coding scholla.png" title="View image"
-                                            data-fancybox="gallery" data-caption="Wordpress template for a coding institution,The site is fully custom made from scratch using WordPress and PHP">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="http://codingschola.cloudaccess.host/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/DIgital course Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/DIgital course.png" title="View image"
-                                            data-fancybox="gallery" data-caption="Customizable WordPress Theme for digital courses for the WordPress CMS">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://digitalcourse.000webhostapp.com/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/Changelog Cropped(1).png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/Changelog.png" title="View image" data-fancybox="gallery"
-                                            data-caption="My professional resume web site built as a changelog">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://changelog-portfolio.herokuapp.com/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/Budgetify Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/Budgetify.png" title="View image" data-fancybox="gallery"
-                                            data-caption="Web app that helps you track and manage your budget">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://budgetfy.herokuapp.com/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/DIY app Cropped(1).png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/DIY app.png" title="View image" data-fancybox="gallery"
-                                            data-caption="DIY-Do It Yourself: Web application for managing Do It Yourself projects/ideas, Creating and tracking the projects and managing the shopping list of the items for the project">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://diy-app.herokuapp.com/projects" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/Chat app Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/Chat app.png" title="View image" data-fancybox="gallery"
-                                            data-caption="Classic style web chat app,Create your room and start chatting">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://chatify-chat-app.herokuapp.com/" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/mizuxe Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/mizuxe.png" title="View image" data-fancybox="gallery"
-                                            data-caption="Landing page template for a book">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://mizuxe.netlify.com" target="_blank" title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-                            <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="Img/thumbnails/cloudzzom Cropped.png" alt="">
-                                    <div class="icons">
-                                        <a class="openImage" href="Img/cloudzzom.png" title="View image" data-fancybox="gallery"
-                                            data-caption="One page website for Paas cloud computing company">
-                                            <i class="fa fa-search"></i>
-                                        </a>
-                                        <a class="openProject" href="https://cloudzzom.netlify.com" target="_blank"
-                                            title="View project">
-                                            <i class="fa fa-link"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imgOverlay"></div>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-5">
+              <img
+                class="aboutImg"
+                src="Img/user.jpg"
+                alt="Image of eugene shapira"
+              />
             </div>
-        </div>
-
-        <div id="services" class="servicesSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center mb-5 mt-3">
-                        <div class="large-square">
-                            <div class="white-box">
-                                <h2 class="sectionHeading--services">Services</h2>
-                            </div>
-                        </div>
-                        <hr>
-                        <h3 class="section-subheading text-muted">I can help you build your next web project</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="Img/escape-preview.png" class="img-responsive" alt="Corporate Website">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Corporate Website</h4>
-                            <p class="text-muted">A corporate website is must to compete in the digital world</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="Img/startup-preview.jpg" class="img-responsive" alt="Startup and Small Business">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Startup and Small Business</h4>
-                            <p class="text-muted">Precise, sharp and to the point</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="Img/landingapge-preview.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Landing Page</h4>
-                            <p class="text-muted">Call-to-action and higher conversion rate is the goal</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="Img/designerPortfolio-preview.png" class="img-responsive" alt="Website for designer protfolio">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Portfolio Websites</h4>
-                            <p class="text-muted">You're talented, let's show it</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="Img/golden-preview.png" class="img-responsive" alt="Professional Blog">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Professional Blog</h4>
-                            <p class="text-muted">Become a blog royalty.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-7">
+              <ul class="text-muted lead bulletpoints">
+                <li>
+                  I collaborate with clients to help them transform their ideas
+                  into well thought and designed website/web app.
+                </li>
+                <li>
+                  I custom develop all websites,allowing them to remain
+                  unique,scalable and provide better experience for your users.
+                </li>
+                <li>
+                  I work with the popular Wordpress CMS(Content Management
+                  System ) allowing you to edit and change content on your
+                  website.
+                </li>
+                <li>
+                  I build responsive websites that will look great on any screen
+                  size on any device.
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div id="skills" class="skillsSection section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="sectionHeading--technical">TECHNICAL SKILLS</h2>
-                        <hr>
-                        <h5 class="text-light text-lead my-4">A list of my technical skills</h5>
-                    </div>
-
-                    <div class="owl-carousel owl-theme mt-2">
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class=" mt-3">
-                                <img src="Img/Icons/1200px-HTML5_logo_and_wordmark.svg.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>HTML</h4>
-                                <p class="text-lead">The building block of every web page</p>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class="mt-3">
-                                <img src="Img/Icons/css3.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>CSS</h4>
-                                <p class="text-lead">The styling language of the web</p>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class="mt-3">
-                                <img src="Img/Icons/Javascript-shield.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>JavaScript</h4>
-                                <p class="text-lead">The de-facto programing language of the web</p>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class="mt-3">
-                                <img src="Img/Icons/wordpress.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>Wordpress</h4>
-                                <p class="text-lead ">The most popular cms on the web</p>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class="mt-3">
-                                <img src="Img/Icons/php.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>PHP</h4>
-                                <p class="text-lead ">The programing language that powers wordpress</p>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class="mt-3">
-                                <img src="Img/Icons/bootstrap.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>Bootstrap</h4>
-                                <p class="text-lead">World's most popular front-end component library</p>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <span class="chart" data-percent="100">
-                                <span class="percent">100</span>
-                                <canvas class="canvasHtml" height="152" width="152"></canvas>
-                            </span>
-                            <div class="mt-3">
-                                <img src="Img/Icons/react.png" alt="">
-                            </div>
-                            <div class="text-center text-white mt-4">
-                                <h4>React JS </h4>
-                                <p class="text-lead">React is a popular JavaScript library for building user interfaces</p>
-                            </div>
-                        </div>
-                    </div>
+      <div
+        id="portfolio"
+        data-matching-link="#portfolio-link"
+        class="portfolioSection section "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="heading ">
+              <div class="title">
+                <div class="square">
+                  <h2 class="sectionHeading portfolioHeading">portfolio</h2>
                 </div>
+              </div>
+              <hr />
+              <h5 lass="text-lead">Some of my recent works</h5>
             </div>
-        </div>
 
-        <div id="stats" class="statsSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="squareItem">
-                            <div class="squareInnerContainer">
-                                <div class="squareIcon"><i class="fas fa-calendar-check"></i></div>
-                                <div class="squareContent">
-                                    <h2 class="counter">2</h2>
-                                    <h3>Years Experience</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="squareItem">
-                            <div class="squareInnerContainer">
-                                <div class="squareIcon"><i class="fas fa-globe"></i></div>
-                                <div class="squareContent">
-                                    <h2 class="counter">10</h2>
-                                    <h3>Web Sites</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="squareItem">
-                            <div class="squareInnerContainer">
-                                <div class="squareIcon"><i class="fas fa-users-cog"></i></div>
-                                <div class="squareContent">
-                                    <h2 class="counter">5</h2>
-                                    <h3>Web apps</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="squareItem">
-                            <div class="squareInnerContainer">
-                                <div class="squareIcon"><i class="fab fa-wordpress"></i></div>
-                                <div class="squareContent">
-                                    <h2 class="counter">3</h2>
-                                    <h3>Wordpress Templates</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="filter">
+              <ul id="filters">
+                <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                <li><a href="#" data-filter=".apps">Apps</a></li>
+                <li>
+                  <a href="#" data-filter=".websites"
+                    >Websites & Microsites&Landing Pages</a
+                  >
+                </li>
+                <li>
+                  <a href="#" data-filter=".wordpress">Wordpress Templates</a>
+                </li>
+              </ul>
             </div>
+
+            <div class="itemsContainer ">
+              <ul class="items ">
+                <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/Organicfood Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/Organicfood.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="One page website for premium food delivery service"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://organicfood-sample.netlify.com"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/youtours Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/youtours.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption=" Website for a tour agency that provides exciting tours for adventurous people"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://youtours.netlify.com/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/nexter Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/nexter.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="One page Microsite for a real estate agency"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://nexterhomes.netlify.com/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img
+                      src="Img/thumbnails/Coding scholla Cropped.png"
+                      alt=""
+                    />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Coding scholla.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="Wordpress template for a coding institution,The site is fully custom made from scratch using WordPress and PHP"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="http://codingschola.cloudaccess.host/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img
+                      src="Img/thumbnails/DIgital course Cropped.png"
+                      alt=""
+                    />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/DIgital course.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="Customizable WordPress Theme for digital courses for the WordPress CMS"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://digitalcourse.000webhostapp.com/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/Changelog Cropped(1).png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/Changelog.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="My professional resume web site built as a changelog"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://changelog-portfolio.herokuapp.com/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/Budgetify Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/Budgetify.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="Web app that helps you track and manage your budget"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://budgetfy.herokuapp.com/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/DIY app Cropped(1).png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/DIY app.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="DIY-Do It Yourself: Web application for managing Do It Yourself projects/ideas, Creating and tracking the projects and managing the shopping list of the items for the project"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://diy-app.herokuapp.com/projects"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/Chat app Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/Chat app.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="Classic style web chat app,Create your room and start chatting"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://chatify-chat-app.herokuapp.com/"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/mizuxe Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/mizuxe.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="Landing page template for a book"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://mizuxe.netlify.com"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+                <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                  <div class="item">
+                    <img src="Img/thumbnails/cloudzzom Cropped.png" alt="" />
+                    <div class="icons">
+                      <a
+                        class="openImage"
+                        href="Img/Mockups/cloudzzom.png"
+                        title="View image"
+                        data-fancybox="gallery"
+                        data-caption="Microsite for Paas cloud computing company"
+                      >
+                        <i class="fa fa-search"></i>
+                      </a>
+                      <a
+                        class="openProject"
+                        href="https://cloudzzom.netlify.com"
+                        target="_blank"
+                        title="View project"
+                      >
+                        <i class="fa fa-link"></i>
+                      </a>
+                    </div>
+                    <div class="imgOverlay"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div
+        id="services"
+        data-matching-link="#services-link"
+        class="servicesSection section"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center mb-5 mt-3">
+              <div class="large-square">
+                <div class="white-box">
+                  <h2 class="sectionHeading--services">Services</h2>
+                </div>
+              </div>
+              <hr />
+              <h3 class="section-subheading text-muted">
+                I can help you build your next web project
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a
+                href="#portfolioModal2"
+                class="portfolio-link"
+                data-toggle="modal"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  src="Img/escape-preview.png"
+                  class="img-responsive"
+                  alt="Corporate Website"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Corporate Website</h4>
+                <p class="text-muted">
+                  A corporate website is must to compete in the digital world
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a
+                href="#portfolioModal3"
+                class="portfolio-link"
+                data-toggle="modal"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  src="Img/startup-preview.jpg"
+                  class="img-responsive"
+                  alt="Startup and Small Business"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Startup and Small Business</h4>
+                <p class="text-muted">Precise, sharp and to the point</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a
+                href="#portfolioModal4"
+                class="portfolio-link"
+                data-toggle="modal"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  src="Img/landingapge-preview.png"
+                  class="img-responsive"
+                  alt=""
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Landing Page</h4>
+                <p class="text-muted">
+                  Call-to-action and higher conversion rate is the goal
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a
+                href="#portfolioModal5"
+                class="portfolio-link"
+                data-toggle="modal"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  src="Img/designerPortfolio-preview.png"
+                  class="img-responsive"
+                  alt="Website for designer protfolio"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Portfolio Websites</h4>
+                <p class="text-muted">You're talented, let's show it</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a
+                href="#portfolioModal6"
+                class="portfolio-link"
+                data-toggle="modal"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  src="Img/golden-preview.png"
+                  class="img-responsive"
+                  alt="Professional Blog"
+                />
+              </a>
+              <div class="portfolio-caption">
+                <h4>Professional Blog</h4>
+                <p class="text-muted">Become a blog royalty.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="skills"
+        data-matching-link="#technicalSkills-link"
+        class="skillsSection section"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2 class="sectionHeading--technical">TECHNICAL SKILLS</h2>
+              <hr />
+              <h5 class="text-light text-lead my-4">
+                A list of my technical skills
+              </h5>
+            </div>
+
+            <div class="owl-carousel owl-theme mt-2">
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class=" mt-3">
+                  <img
+                    src="Img/Icons/1200px-HTML5_logo_and_wordmark.svg.png"
+                    alt=""
+                  />
+                </div>
+                <div class="text-center text-white mt-4">
+                  <h4>HTML</h4>
+                  <p class="text-lead">The building block of every web page</p>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class="mt-3"><img src="Img/Icons/css3.png" alt="" /></div>
+                <div class="text-center text-white mt-4">
+                  <h4>CSS</h4>
+                  <p class="text-lead">The styling language of the web</p>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class="mt-3">
+                  <img src="Img/Icons/Javascript-shield.png" alt="" />
+                </div>
+                <div class="text-center text-white mt-4">
+                  <h4>JavaScript</h4>
+                  <p class="text-lead">
+                    The de-facto programing language of the web
+                  </p>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class="mt-3">
+                  <img src="Img/Icons/wordpress.png" alt="" />
+                </div>
+                <div class="text-center text-white mt-4">
+                  <h4>Wordpress</h4>
+                  <p class="text-lead ">The most popular cms on the web</p>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class="mt-3"><img src="Img/Icons/php.png" alt="" /></div>
+                <div class="text-center text-white mt-4">
+                  <h4>PHP</h4>
+                  <p class="text-lead ">
+                    The programing language that powers wordpress
+                  </p>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class="mt-3">
+                  <img src="Img/Icons/bootstrap.png" alt="" />
+                </div>
+                <div class="text-center text-white mt-4">
+                  <h4>Bootstrap</h4>
+                  <p class="text-lead">
+                    World's most popular front-end component library
+                  </p>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="chart" data-percent="100">
+                  <span class="percent">100</span>
+                  <canvas class="canvasHtml" height="152" width="152"></canvas>
+                </span>
+                <div class="mt-3"><img src="Img/Icons/react.png" alt="" /></div>
+                <div class="text-center text-white mt-4">
+                  <h4>React JS</h4>
+                  <p class="text-lead">
+                    React is a popular JavaScript library for building user
+                    interfaces
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="stats" class="statsSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="squareItem">
+                <div class="squareInnerContainer">
+                  <div class="squareIcon">
+                    <i class="fas fa-calendar-check"></i>
+                  </div>
+                  <div class="squareContent">
+                    <h2 class="counter">2</h2>
+                    <h3>Years Experience</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="squareItem">
+                <div class="squareInnerContainer">
+                  <div class="squareIcon"><i class="fas fa-globe"></i></div>
+                  <div class="squareContent">
+                    <h2 class="counter">10</h2>
+                    <h3>Web Sites</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="squareItem">
+                <div class="squareInnerContainer">
+                  <div class="squareIcon"><i class="fas fa-users-cog"></i></div>
+                  <div class="squareContent">
+                    <h2 class="counter">5</h2>
+                    <h3>Web apps</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="squareItem">
+                <div class="squareInnerContainer">
+                  <div class="squareIcon"><i class="fab fa-wordpress"></i></div>
+                  <div class="squareContent">
+                    <h2 class="counter">3</h2>
+                    <h3>Wordpress Templates</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <div class="contactSection section" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="text-white ">I'm always an email away</p>
-                    <h2 class="text-white">I'd love to talk about your web project</h2>
-                    <a class="contactButton" href="mailTo:evgeni.shapira@gmail.com">GET IN TOUCH</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="text-white ">I'm always an email away</p>
+            <h2 class="text-white">I'd love to talk about your web project</h2>
+            <a class="contactButton" href="mailTo:evgeni.shapira@gmail.com"
+              >GET IN TOUCH</a
+            >
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="copyrightSection mt-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>&copy; Copyright Eugene Shapira 2018</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>&copy; Copyright Eugene Shapira 2018</p>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+    <!--
+      Use the modals below to showcase details about your portfolio projects!
+    -->
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal  modal fade" id="portfolioModal2" tabindex="-1" role="document" aria-hidden="true">
-        <div class="modal-dialog modal-full">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    <div
+      class="portfolio-modal  modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="document"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr"><div class="rl"></div></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>WEBSITES FOR CORPORATE</h2>
+                  <p class="item-intro text-muted">
+                    Create a strong web presence for your company. A great
+                    website is your most important marketing tool. Use it to
+                    promote your brand in the digital world, create leads for
+                    potential clients, engage your existing customers and keep
+                    them informed and taken care of.
+                  </p>
+                  <img
+                    class="img-fluid img-centered"
+                    src="Img/escape-preview.png"
+                    alt=""
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i class="fa fa-times"></i> Back To Services
+                  </button>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>WEBSITES FOR CORPORATE </h2>
-                                <p class="item-intro text-muted">Create a strong web presence for your company. A great
-                                    website
-                                    is your most important marketing tool. Use it to promote your brand in the digital
-                                    world,
-                                    create leads for potential clients, engage your existing customers and keep them
-                                    informed
-                                    and taken care of.</p>
-                                <img class="img-fluid img-centered" src="Img/escape-preview.png" alt="">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                    Back To Services</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-full">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr"><div class="rl"></div></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Startups and Small Businesses</h2>
+                  <p class="item-intro text-muted">
+                    A strategically developed website and online presence
+                    solution builds credibility, expands your customers base and
+                    helps your business grow.
+                  </p>
+                  <img
+                    class="img-fluid img-centered"
+                    src="Img/startup-preview.jpg"
+                    alt=""
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i class="fa fa-times"></i> Back To Services
+                  </button>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="modal-body">
-                                <h2>Startups and Small Businesses</h2>
-                                <p class="item-intro text-muted">A strategically developed website and online presence
-                                    solution
-                                    builds credibility, expands your customers base and helps your business grow.</p>
-                                <img class="img-fluid img-centered" src="Img/startup-preview.jpg" alt="">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                    Back To Services</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-full">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr"><div class="rl"></div></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Landing Page</h2>
+                  <p class="item-intro text-muted">
+                    A landing page is a standalone web page distinct from your
+                    main website that has been designed for a single focused
+                    objective: <br />Drive users to a specific product, service
+                    or offer and encourage them to take action <br />Improve
+                    your SEO, create conversions and build your customer base
+                    <br />Build your brand and market your message loud and
+                    clear<br />Use the ability of a landing page to accurately
+                    reflect the messaging presented on the upstream ad.
+                    <br />Most visitors are very impatient and will leave your
+                    site within a few seconds of arrival if you don’t reinforce
+                    their mission with a matching headline and purpose (quickly
+                    and clearly).
+                  </p>
+                  <img
+                    class="img-fluid img-centered"
+                    src="Img/landingapge-preview.png"
+                    alt=""
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i class="fa fa-times"></i> Back To Services
+                  </button>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="modal-body">
-
-                                <!-- Project Details Go Here -->
-                                <h2>Landing Page</h2>
-                                <p class="item-intro text-muted">A landing page is a standalone web page distinct from
-                                    your
-                                    main website that has been designed for a single focused objective: <br>Drive users
-                                    to
-                                    a specific product, service or offer and encourage them to take action <br>Improve
-                                    your
-                                    SEO, create conversions and build your customer base <br>Build your brand and
-                                    market
-                                    your message loud and clear<br>Use the ability of a landing page to accurately
-                                    reflect
-                                    the messaging presented on the upstream ad. <br>Most visitors are very impatient
-                                    and
-                                    will leave your site within a few seconds of arrival if you don’t reinforce their
-                                    mission
-                                    with a matching headline and purpose (quickly and clearly).</p>
-                                <img class="img-fluid img-centered" src="Img/landingapge-preview.png" alt="">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                    Back To Services</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-full">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr"><div class="rl"></div></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Portfolio Website</h2>
+                  <p class="item-intro text-muted">
+                    An online portfolio is a living and changing collection of
+                    records that reflect your accomplishments, skills,
+                    experiences, and attributes. <br />It highlights and
+                    showcases samples of some of your best work, along with life
+                    experiences, values and achievements. <br />It will help you
+                    reach a bigger audience, create leads for potential clients
+                    and make a strong digital presence of your brand.
+                  </p>
+                  <img
+                    class="img-fluid img-centered"
+                    src="Img/designerPortfolio-preview.png"
+                    alt=""
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i class="fa fa-times"></i> Back To Services
+                  </button>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Portfolio Website</h2>
-                                <p class="item-intro text-muted">An online portfolio is a living and changing
-                                    collection
-                                    of records that reflect your accomplishments, skills, experiences, and attributes.
-                                    <br>It
-                                    highlights and showcases samples of some of your best work, along with life
-                                    experiences,
-                                    values and achievements. <br>It will help you reach a bigger audience, create leads
-                                    for
-                                    potential clients and make a strong digital presence of your brand.</p>
-                                <img class="img-fluid img-centered" src="Img/designerPortfolio-preview.png" alt="">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                    Back To Services</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-full">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-full">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr"><div class="rl"></div></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Professional Blog</h2>
+                  <p class="item-intro text-muted">
+                    When you're just too good for the blogosphere, take your
+                    blog to the next level and let us create a slick and chick
+                    website that will stand out.
+                  </p>
+                  <img
+                    class="img-fluid img-centered"
+                    src="Img/golden-preview.png "
+                    alt=""
+                  />
+                  <p></p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i class="fa fa-times"></i> Back To Services
+                  </button>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Professional Blog</h2>
-                                <p class="item-intro text-muted">When you're just too good for the blogosphere, take
-                                    your
-                                    blog to the next level and let us create a slick and chick website that will stand
-                                    out.</p>
-                                <img class="img-fluid img-centered" src="Img/golden-preview.png " alt="">
-                                <p></p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
-                                    Back To Services</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="js/countUp.js"></script>
@@ -863,8 +1237,8 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
+    <script src="node_modules/waypoints/lib/noframework.waypoints.js"></script>
+    <script src="js/pageSectionWaypoints.js"></script>
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>

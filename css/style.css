@@ -105,6 +105,10 @@ img {
   font-size: 21px;
 }
 
+.is-current-link {
+  color: #fabb69 !important;
+}
+
 .section {
   padding: 100px 0;
 }
@@ -126,7 +130,6 @@ img {
   z-index: 1;
   letter-spacing: 4px;
   margin-top: 30px;
-
 }
 .sectionHeading--services {
   font-size: 2.5rem;
@@ -144,6 +147,14 @@ img {
   color: #eee;
   z-index: 1;
   letter-spacing: 4px;
+}
+
+.bulletpoints li:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+.bulletpoints li {
+  padding-left: 9px;
 }
 
 .portfolioHeading {
@@ -483,7 +494,7 @@ img {
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .loader .inner {
