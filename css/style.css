@@ -610,7 +610,7 @@ header h1 {
 
 .facebook a:before,
 .facebook a:after {
-  content: "\f204";
+  content: "\f411";
 }
 .facebook a:after {
   background-color: #3b5998;
